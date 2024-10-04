@@ -1,11 +1,13 @@
-# Fonction pour faire la somme de deux nombres
+
+#Version 4
+# Demande à l'utilisateur d'entrer deux nombres
+a = int(input("Entrez le premier nombre : "))
+b = int(input("Entrez le deuxieme nombre : "))
+
+# Définition de la fonction somme
 def somme(a, b):
     return a + b
 
-# Demande de l'utilisateur
-nombre1 = float(input("Entrez le premier nombre : "))
-nombre2 = float(input("Entrez le deuxième nombre : "))
-
-# Affichage du résultat
-resultat = somme(nombre1, nombre2)
-print(f"La somme de {nombre1} et {nombre2} est {resultat}.")
+# Appel de la fonction et affichage du résultat
+resultat = somme(a, b)
+print(f"La somme de {a} et {b} est {resultat}.")
